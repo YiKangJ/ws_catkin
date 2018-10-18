@@ -1,0 +1,1 @@
+/home/jyk/ws_catkin/devel/.private/fake_ar_publisher/lib/python2.7/dist-packages/fake_ar_publisher/__init__.py

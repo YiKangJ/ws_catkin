@@ -1,0 +1,8 @@
+prefix=/home/jyk/ws_catkin/install
+
+Name: descartes_core
+Description: Description of descartes_core
+Version: 0.0.1
+Cflags: -I/home/jyk/ws_catkin/install/include -I/usr/include -I/usr/include/eigen3
+Libs: -L/home/jyk/ws_catkin/install/lib -ldescartes_core
+Requires: moveit_core roscpp

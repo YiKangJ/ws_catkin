@@ -1,0 +1,8 @@
+prefix=/home/jyk/ws_catkin/devel/.private/descartes_utilities
+
+Name: descartes_utilities
+Description: Description of descartes_utilities
+Version: 0.0.1
+Cflags: -I/home/jyk/ws_catkin/src/descartes/descartes_utilities/include
+Libs: -L/home/jyk/ws_catkin/devel/.private/descartes_utilities/lib -ldescartes_utilities
+Requires: descartes_core descartes_trajectory trajectory_msgs

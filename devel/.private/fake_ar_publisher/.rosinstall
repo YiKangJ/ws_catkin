@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jyk/ws_catkin/devel/.private/fake_ar_publisher/setup.sh

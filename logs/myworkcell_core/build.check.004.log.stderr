@@ -1,0 +1,5 @@
+CMake Error: Error in cmake code at
+/home/jyk/ws_catkin/src/myworkcell_core/CMakeLists.txt:60:
+Parse error.  Expected "(", got newline with text "
+".
+make: *** [cmake_check_build_system] Error 1

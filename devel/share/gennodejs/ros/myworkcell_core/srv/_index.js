@@ -1,0 +1,1 @@
+/home/jyk/ws_catkin/devel/.private/myworkcell_core/share/gennodejs/ros/myworkcell_core/srv/_index.js

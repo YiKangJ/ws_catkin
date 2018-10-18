@@ -1,0 +1,10 @@
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/myworkcell_node.cpp:[m[K In member function ‘[01m[Kvoid ScanNPlan::start(const string&)[m[K’:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/myworkcell_node.cpp:49:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_taregt[m[K’ was not declared in this scope
+             cartesian_srv.request.pose = move_taregt;
+[01;32m[K                                          ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/myworkcell_node.cpp:50:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kcartesian_client[m[K’ was not declared in this scope
+             if (!cartesian_client.call(cartesian_srv))
+[01;32m[K                  ^[m[K
+make[2]: *** [CMakeFiles/myworkcell_node.dir/src/myworkcell_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/myworkcell_node.dir/all] Error 2
+make: *** [all] Error 2

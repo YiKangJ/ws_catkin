@@ -1,0 +1,10 @@
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/vision_node.cpp:[m[K In member function ‘[01m[Kbool Localizer::localizePart(myworkcell_core::LocalizePart::Request&, myworkcell_core::LocalizePart::Response&)[m[K’:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/vision_node.cpp:28:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTranform[m[K’ is not a member of ‘[01m[Ktf[m[K’
+             tf::Tranform req_to_target;
+[01;32m[K             ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/vision_node.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq_to_target[m[K’ was not declared in this scope
+             req_to_target = req_to_cam * cam_to_target;
+[01;32m[K             ^[m[K
+make[2]: *** [CMakeFiles/vision_node.dir/src/vision_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vision_node.dir/all] Error 2
+make: *** [all] Error 2

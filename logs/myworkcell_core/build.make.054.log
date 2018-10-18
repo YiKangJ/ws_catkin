@@ -1,0 +1,123 @@
+[  0%] Built target trajectory_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target trajectory_msgs_generate_messages_py
+[  0%] Built target _myworkcell_core_generate_messages_check_deps_LocalizePart
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _myworkcell_core_generate_messages_check_deps_PlanCartesianPath
+[  0%] Built target trajectory_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target object_recognition_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target moveit_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target fake_ar_publisher_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target trajectory_msgs_generate_messages_cpp
+[  0%] Built target octomap_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target object_recognition_msgs_generate_messages_py
+[  0%] Built target shape_msgs_generate_messages_lisp
+[  0%] Built target fake_ar_publisher_generate_messages_lisp
+[  0%] Built target moveit_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target fake_ar_publisher_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target object_recognition_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target moveit_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target shape_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target fake_ar_publisher_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target fake_ar_publisher_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target shape_msgs_generate_messages_eus
+[  0%] Built target moveit_ros_planning_gencfg
+[  0%] Built target shape_msgs_generate_messages_nodejs
+[  0%] Built target shape_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target moveit_msgs_generate_messages_lisp
+[  0%] Built target moveit_msgs_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_lisp
+[  9%] Built target myworkcell_core_generate_messages_cpp
+[  9%] Built target trajectory_msgs_generate_messages_eus
+[  9%] Built target actionlib_generate_messages_nodejs
+[  9%] Built target object_recognition_msgs_generate_messages_cpp
+[  9%] Built target octomap_msgs_generate_messages_eus
+[  9%] Built target roscpp_generate_messages_lisp
+[  9%] Built target object_recognition_msgs_generate_messages_eus
+[ 22%] Built target myworkcell_core_generate_messages_eus
+[ 22%] Built target octomap_msgs_generate_messages_cpp
+[ 22%] Built target octomap_msgs_generate_messages_py
+[ 22%] Built target octomap_msgs_generate_messages_lisp
+[ 22%] Built target moveit_ros_manipulation_gencfg
+[ 22%] Built target roscpp_generate_messages_cpp
+[ 31%] Built target myworkcell_core_generate_messages_lisp
+[ 45%] Built target myworkcell_core_generate_messages_py
+[ 54%] Built target myworkcell_core_generate_messages_nodejs
+[35m[1mScanning dependencies of target adv_descartes_node[0m
+[ 63%] Built target adv_myworkcell_node
+[ 72%] Built target myworkcell_node
+[ 81%] Built target descartes_node
+[ 81%] Built target myworkcell_core_generate_messages
+[ 86%] [32mBuilding CXX object CMakeFiles/adv_descartes_node.dir/src/adv_descartes_node.cpp.o[0m
+[ 95%] Built target vision_node
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:1[m[K:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:[m[K In member function ‘[01m[Kbool CartesianPlanner::planPath(myworkcell_core::PlanCartesianPathRequest&, myworkcell_core::PlanCartesianPathResponse&)[m[K’:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:99:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ktool_pose[m[K’ was not declared in this scope
+     ROS_INFO_STREAM(tool_pose.size());
+[01;32m[K                     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:356:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+     __rosconsole_print_stream_at_location_with_filter__ss__ << args; \
+[01;32m[K                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:398:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_STREAM_AT_LOCATION(args); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:568:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+ #define ROS_LOG_STREAM(level, name, args) ROS_LOG_STREAM_COND(true, level, name, args)
+[01;32m[K                                           ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+ #define ROS_INFO_STREAM(args) ROS_LOG_STREAM(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+[01;32m[K                               ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:99:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_STREAM[m[K’
+     ROS_INFO_STREAM(tool_pose.size());
+[01;32m[K     ^[m[K
+CMakeFiles/adv_descartes_node.dir/build.make:62: recipe for target 'CMakeFiles/adv_descartes_node.dir/src/adv_descartes_node.cpp.o' failed
+make[2]: *** [CMakeFiles/adv_descartes_node.dir/src/adv_descartes_node.cpp.o] Error 1
+CMakeFiles/Makefile2:276: recipe for target 'CMakeFiles/adv_descartes_node.dir/all' failed
+make[1]: *** [CMakeFiles/adv_descartes_node.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,1 @@
+/home/jyk/ws_catkin/devel/.private/fake_ar_publisher/share/common-lisp/ros/fake_ar_publisher/msg/fake_ar_publisher-msg.asd

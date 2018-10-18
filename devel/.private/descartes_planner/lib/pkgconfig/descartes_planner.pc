@@ -1,0 +1,8 @@
+prefix=/home/jyk/ws_catkin/devel/.private/descartes_planner
+
+Name: descartes_planner
+Description: Description of descartes_planner
+Version: 0.0.1
+Cflags: -I/home/jyk/ws_catkin/src/descartes/descartes_planner/include -I/usr/include -I/usr/include/eigen3
+Libs: -L/home/jyk/ws_catkin/devel/.private/descartes_planner/lib -ldescartes_planner
+Requires: descartes_core descartes_trajectory roscpp

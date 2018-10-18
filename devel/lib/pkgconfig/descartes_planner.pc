@@ -1,0 +1,1 @@
+/home/jyk/ws_catkin/devel/.private/descartes_planner/lib/pkgconfig/descartes_planner.pc

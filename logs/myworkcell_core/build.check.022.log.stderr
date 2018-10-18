@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /home/jyk/ws_catkin/build/myworkcell_core/cmake/myworkcell_core-genmsg.cmake:3 (message):
+  Could not find messages which
+  '/home/jyk/ws_catkin/src/myworkcell_core/srv/PlanCartesianPath.srv' depends
+  on.  Did you forget to specify generate_messages(DEPENDENCIES ...)?
+
+  Cannot locate message [JointTrajectory]: unknown package [trajectory_msgs]
+  on search path [{{'std_msgs':
+  ['/opt/ros/kinetic/share/std_msgs/cmake/../msg'], 'geometry_msgs':
+  ['/opt/ros/kinetic/share/geometry_msgs/cmake/../msg']}}]
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:80 (generate_messages)
+
+
+make: *** [cmake_check_build_system] Error 1

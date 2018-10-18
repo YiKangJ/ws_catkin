@@ -1,0 +1,39 @@
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:273:0:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "ROS_INFO_STREAM"
+ }
+[01;32m[K ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:99:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+     ROS_INFO_STREAM(tool_pose.size();
+[01;32m[K     ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:[m[K In constructor ‘[01m[KCartesianPlanner::CartesianPlanner(ros::NodeHandle&)[m[K’:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_[m[K’ was not declared in this scope
+     server_ = nh.advertiseService("adv_plan_path", &CartesianPlanner::planPath, this);
+[01;32m[K     ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:57:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvis_pub_[m[K’ was not declared in this scope
+     vis_pub_ = nh.advertise<visualization_msgs::MarkerArray>("puzzle_path", 0);
+[01;32m[K     ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:[m[K In member function ‘[01m[Kbool CartesianPlanner::initDescartes()[m[K’:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:63:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmodel_[m[K’ was not declared in this scope
+     model_ = boost::make_shared<ur5_demo_descartes::UR5RobotModel>();
+[01;32m[K     ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:79:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_[m[K’ was not declared in this scope
+     if (!planner_.initialize(model_))
+[01;32m[K          ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:[m[K In member function ‘[01m[Kbool CartesianPlanner::planPath(myworkcell_core::PlanCartesianPathRequest&, myworkcell_core::PlanCartesianPathResponse&)[m[K’:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:94:64:[m[K [01;31m[Kerror: [m[K‘[01m[KmakePuzzleToolPoses[m[K’ was not declared in this scope
+     EigenSTL::vector_Affine3d tool_poses = makePuzzleToolPoses();//makeToolPoses();
+[01;32m[K                                                                ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:95:35:[m[K [01;31m[Kerror: [m[K‘[01m[KvisualizePuzzlePath[m[K’ was not declared in this scope
+     visualizePuzzlePath(tool_poses);
+[01;32m[K                                   ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:98:91:[m[K [01;31m[Kerror: [m[K‘[01m[KmakeDescartesTrajectory[m[K’ was not declared in this scope
+     std::vector<descartes_core::TrajectoryPtPtr> path = makeDescartesTrajectory(tool_poses);
+[01;32m[K                                                                                           ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:99:5:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO_STREAM[m[K’ was not declared in this scope
+     ROS_INFO_STREAM(tool_pose.size();
+[01;32m[K     ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:99:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:[m[K At global scope:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:99:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+make[2]: *** [CMakeFiles/adv_descartes_node.dir/src/adv_descartes_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/adv_descartes_node.dir/all] Error 2
+make: *** [all] Error 2

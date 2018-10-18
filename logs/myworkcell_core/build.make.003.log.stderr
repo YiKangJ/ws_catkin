@@ -1,0 +1,10 @@
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/vision_node.cpp:20:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+ }
+[01;32m[K ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/vision_node.cpp:[m[K In constructor ‘[01m[KLocalizer::Localizer(ros::NodeHandle&)[m[K’:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/vision_node.cpp:9:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kar_sub[m[K’ was not declared in this scope
+             ar_sub = nh.subscribe<fake_ar_publisher::ARMarker>("ar_pose_marker", 1, &Localizer::visionCallback, this);
+[01;32m[K             ^[m[K
+make[2]: *** [CMakeFiles/vision_node.dir/src/vision_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vision_node.dir/all] Error 2
+make: *** [all] Error 2

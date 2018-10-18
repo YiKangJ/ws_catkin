@@ -1,0 +1,20 @@
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:[m[K In member function ‘[01m[Kstd::vector<boost::shared_ptr<descartes_core::TrajectoryPt> > CartesianPlanner::makeDescartesTrajectory(const vector_Affine3d&)[m[K’:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:228:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kworld_frame[m[K’ was not declared in this scope
+     listener_.lookupTransform(grinder_frame, world_frame, ros::Time(0), grinder_frame);
+[01;32m[K                                              ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:230:5:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformTFToEigen[m[K’ is not a member of ‘[01m[Ktf[m[K’
+     tf::TransformTFToEigen(grinder_frame, gf);
+[01;32m[K     ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:[m[K In member function ‘[01m[Kstd::vector<boost::shared_ptr<descartes_core::TrajectoryPt> > CartesianPlanner::makeDescartesTrajectory(const vector_Affine3d&)[m[K’:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:228:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kworld_frame[m[K’ was not declared in this scope
+     listener_.lookupTransform(grinder_frame, world_frame, ros::Time(0), grinder_frame);
+[01;32m[K                                              ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:230:5:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformTFToEigen[m[K’ is not a member of ‘[01m[Ktf[m[K’
+     tf::TransformTFToEigen(grinder_frame, gf);
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/adv_descartes_node.dir/src/adv_descartes_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/adv_descartes_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/adv_myworkcell_node.dir/src/adv_descartes_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/adv_myworkcell_node.dir/all] Error 2
+make: *** [all] Error 2

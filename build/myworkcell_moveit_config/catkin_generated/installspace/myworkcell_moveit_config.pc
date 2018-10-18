@@ -1,0 +1,8 @@
+prefix=/home/jyk/ws_catkin/install
+
+Name: myworkcell_moveit_config
+Description: Description of myworkcell_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/jyk/ws_catkin/install/lib 
+Requires: 

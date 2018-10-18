@@ -1,0 +1,1 @@
+/home/jyk/ws_catkin/devel/.private/fake_ar_publisher/share/roseus/ros/fake_ar_publisher/manifest.l

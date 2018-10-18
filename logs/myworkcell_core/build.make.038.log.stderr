@@ -1,0 +1,7 @@
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:[m[K In member function ‘[01m[KEigenSTL::vector_Affine3d CartesianPlanner::makePuzzleToolPoses()[m[K’:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/adv_descartes_node.cpp:132:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfilename[m[K’ was not declared in this scope
+     filename = packagePath + "/config/puzzle_bent.csv";// Need to get the path to the puzzle_bent.csv using ros::package
+[01;32m[K     ^[m[K
+make[2]: *** [CMakeFiles/adv_descartes_node.dir/src/adv_descartes_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/adv_descartes_node.dir/all] Error 2
+make: *** [all] Error 2

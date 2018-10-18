@@ -1,0 +1,6 @@
+devel_space: /home/jyk/ws_catkin/devel
+install: false
+install_space: /home/jyk/ws_catkin/install
+profile: default
+source_space: /home/jyk/ws_catkin/src
+workspace: /home/jyk/ws_catkin

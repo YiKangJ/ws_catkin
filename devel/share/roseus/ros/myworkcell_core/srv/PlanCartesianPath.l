@@ -1,0 +1,1 @@
+/home/jyk/ws_catkin/devel/.private/myworkcell_core/share/roseus/ros/myworkcell_core/srv/PlanCartesianPath.l

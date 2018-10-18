@@ -1,0 +1,10 @@
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/vision_node.cpp:[m[K In member function ‘[01m[Kbool Localizer::localizePart(myworkcell_core::LocalizePart::Request&, myworkcell_core::LocalizePart::Response&)[m[K’:
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/vision_node.cpp:26:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf::TransformListener[m[K’ has no member named ‘[01m[Klookup[m[K’
+             listener_.lookup(req.base_frame, p->header.frame_id, ros::Time(0), req_to_cam);
+[01;32m[K                       ^[m[K
+[01m[K/home/jyk/ws_catkin/src/myworkcell_core/src/vision_node.cpp:28:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kreq_to_target[m[K’ was not declared in this scope
+             tf::poseTFToMsg(req_to_target, res.pose);
+[01;32m[K                             ^[m[K
+make[2]: *** [CMakeFiles/vision_node.dir/src/vision_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/vision_node.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,1 @@
+/home/jyk/ws_catkin/devel/.private/descartes_core/share/descartes_core/cmake/descartes_coreConfig-version.cmake
